@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     
+     div{
+        width: 200px;
+        height: 200px;
+        animation-name: div;
+        animation-delay: 1s;
+        margin: 20px;
+        animation-timing-function: linear;
+        animation-duration: 7s;
+     }
+     @keyframes div{
+        0%{
+            background-color: aliceblue;
+        }
+        40%{
+            background-color: aqua;
+        }
+        60%{
+            background-color: blueviolet;
+        }
+        100%{
+            background-color: brown;
+        }
+
+     }
+    /* keyframes is like identifier */
+    h1{
+        animation-name: change;
+        animation-duration: 7s;
+        animation-delay: 1s;
+        animation-timing-function: ease-in;
+        animation-iteration-count: infinite;
+        margin: 400px;
+    }
+    @keyframes change {
+        0%{
+            color: rgb(50, 52, 54);
+            transform: scale(1);
+        }
+        40%{
+            color: aqua;
+            transform: scale(1);
+
+        }
+        60%{
+            color: blueviolet;
+            transform: scale(1);
+
+        }
+        100%{
+            color: brown;
+            transform: scale(1);
+
+        }
+    }
+    
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+    <h1>shahin</h1>
+</body>
+</html>
