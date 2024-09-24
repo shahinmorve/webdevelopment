@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            transition-property: width;
+            transition-duration: 3s;
+            transition-delay: 2s;
+            transition-timing-function: linear;
+
+        }
+        div:hover{
+            width: 300px;
+        }
+        .div1{
+            height: 200px;
+            background-color: blue;
+            transition-property: height;
+            transition-duration: 4s;
+            transition-delay: 1s;
+            border-radius: 50%;
+            border-bottom-style: dotted;
+            
+        }
+        .div1:hover{
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        
+    </div>
+    <br>
+    <div class="div1"></div>
+    
+</body>
+</html>
+<!-- css transition that allows to change property value smoothly, over a given duration
+ transition shorthand(width,height)
+ tarnsition-delay: delay the process 
+ transition-dusration: timing of the transition
+ transition-timing-function:-timing ease-in
+ tarnsition-property
+  -->
