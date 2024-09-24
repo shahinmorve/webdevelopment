@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1{
+            background-color: coral;
+            width: 600px;
+            height: 600px;
+            animation: none;
+        }
+        div {
+            animation-name: changingcolorposition;
+            animation-duration: 7s;
+            background-color: black;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate-reverse;
+            width: 200px;
+            height: 200px;
+            position: relative;
+            margin: 40px;
+        }
+
+        @keyframes changingcolorposition {
+            0% {
+                background-color: black;
+                left: 0px;
+                top: 0px;
+            }
+
+            20% {
+                background-color: red;
+                left: 200px;
+                top: 0px;
+            }
+
+            40% {
+                background-color: blue;
+                left: 200px;
+                top: 200px;
+
+            }
+
+            60% {
+                background-color: chartreuse;
+                left: 0px;
+                top: 200px;
+
+            }
+
+            100% {
+                left: 0px;
+                top: 0px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="div1">
+    <div>
+
+    </div>
+</div>
+
+</body>
+
+</html>
