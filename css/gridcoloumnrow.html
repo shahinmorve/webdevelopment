@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.gridcoloumn{
+    background-color: black;
+    border: 4px solid red;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    width: 600px;
+    
+}
+.gridcoloumn > div{
+    border: 2px solid white;
+    padding: 30px;
+    font-size: large;
+    color: red;
+    text-align: center;
+    /* background-color: rgb(119, 104, 85); */
+}
+.i1{
+    background-color: rgb(232, 224, 224);
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.i2{
+ background-color: aqua;
+ 
+grid-column: 2/ span 2;
+}
+
+    </style>
+</head>
+<body>
+    <div class="gridcoloumn">
+        <div class="i1">one</div>
+        <div class="i2">two</div>
+        <div>three</div>
+        <div>four</div>
+        <div>five</div>
+        <div>six</div>
+        <div>seven</div>
+        <div>eigth</div>
+        <div>nine</div>
+    </div>
+</body>
+</html>

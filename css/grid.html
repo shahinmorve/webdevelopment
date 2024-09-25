@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gridcoloumn {
+            background-color: grey;
+            border: 1px solid black;
+            display:grid ;
+            grid-template-columns: auto auto auto;
+            padding: 10px;
+            gap: 20px;
+            
+        }
+        .gridcoloumn >div{
+            width: 200px;
+            height: 200px;
+            background-color: white;
+            padding: 10px;
+            text-align: center;
+            font-size: medium;
+            margin: 5px;
+            box-shadow: 5px 5px 5px 5px rgb(17, 37, 76);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gridcoloumn">
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+    </div>
+</body>
+
+</html>
