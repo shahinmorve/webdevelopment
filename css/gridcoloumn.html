@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gridcoloumn {
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            padding: 20px;
+            background-color: brown;
+            justify-content: center;
+            justify-content: stretch;
+            justify-content: space-around;
+
+        }
+
+        .gridcoloumn>div {
+
+            border: 2px solid red;
+            background-color: aqua;
+            padding: 30px;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="gridcoloumn">
+        <div>one</div>
+        <div> two </div>
+        <div>three</div>
+    </div>
+</body>
+</html>

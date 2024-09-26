@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .gridrow{
+        width: 600px;
+        height: 300px;
+        background-color: aqua;
+        border: 2px solid black;
+        display: grid;
+        grid-template-rows: auto auto auto;
+        align-content: space-evenly;
+    }
+    .gridrow >div{
+        border: 2px solid red;
+        background-color: beige;
+        padding: 30px;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+    }
+
+     /* align-content:baseline; */
+                 /* align-content: center; */
+                 /* align-content: end; */
+                 /* align-content: space-around; */
+                 /* align-content: space-between; */
+
+                 /* align content property is sued vertically align the
+                  whole grid inside the container */
+                  /* align-content: space-evenly; */
+                   /* justify content property is used horizontally align the
+                  whole grid inside the container */
+                 /* justify-content: space-evenly; */
+                  
+    </style>
+</head>
+
+<body>
+    <div class="gridrow">
+        <div>one</div>
+        <div>two</div>
+        <div>three</div>
+    </div>
+</body>
+
+</html>
