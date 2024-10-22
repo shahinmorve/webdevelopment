@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function one(){
+            document.write('<br> first function is call')
+        }
+        function two(one){
+            one();
+            
+         document.write('<br>second function is call')
+        }
+        two(one);
+         //one is callback function here
+        
+//   call back :
+
+//    to pass one function is  pass as a parametre to another function
+
+
+function show(){
+    document.write("<br> show function" )
+
+}
+function display( callback){
+    document.write("<br> display function" )
+    callback();
+
+}
+display(show);
+
+    </script>
+    
+</body>
+</html>
