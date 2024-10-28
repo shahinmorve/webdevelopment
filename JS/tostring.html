@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var col = ["red", "blue", "pink"]
+        document.write(col)
+        document.write(col.toString())
+        document.write("<br>")
+
+
+
+        // at()
+
+        var col = ["red", "pink", "blue", "orange"]
+        document.write("<br> at:")
+        document.write(col.at())
+
+        document.write("<br>")
+
+
+        //join
+
+        var col = ["red", "blue"]
+        document.write("<br>")
+        document.write(col.join("+"))
+        document.write("<br>")
+
+        //shift removes the first elemnt of array
+        //pop()
+        //it removes last elment
+        var col = ["red", "black", "white"]
+        document.write("<br> before shift:")
+        document.write(col)
+
+        document.write("<br>")
+
+        document.write("<br> after shift:")
+        col.shift()
+        document.write(col)
+
+
+        //unshift()
+        //  add new element to an array at the begining
+
+        //push()
+        //add new element to an array at the last index of array
+
+
+        var col = ["red", "blue", "green"]
+        document.write("<br> before unshift:")
+        document.write(col)
+        document.write("<br> after unshift:")
+        col.unshift("yellow")
+        document.write(col)
+
+
+        //delete
+        var col = ["red", "pink", "blue", "black", "white"];
+
+        document.write("<br> before : " + col)
+
+        delete col[2];
+
+
+        document.write("<br> after delete : " + col)
+document.write("<br>")
+
+// concating
+var col1=["red","pink"]
+var col2=["yellow","blue"]
+var col=col1.concat(col2)
+document.write(col)
+
+
+    </script>
+
+</body>
+
+</html>
